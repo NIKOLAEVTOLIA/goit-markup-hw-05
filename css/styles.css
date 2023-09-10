@@ -813,6 +813,7 @@ img {
 }
 
 .modal-form-checkbox-label {
+    display: block;
     color: var(--LIGHT-SLATE, #8E8F99);
     font-size: 12px;
     font-weight: 400;
