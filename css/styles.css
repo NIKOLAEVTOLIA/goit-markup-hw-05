@@ -679,7 +679,7 @@ img {
     background: var(--DAIRY, #FCFCFC);
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(1);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -729,7 +729,7 @@ img {
 }
 
 .modal-form-wrapper {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .modal-form-label {
@@ -781,6 +781,7 @@ img {
     width: 100%;
     height: 120px;
     border-radius: 4px;
+    color: rgba(46, 47, 66, 0.4);
     border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
     outline: transparent;
     padding: 8px 16px;
